@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">storyApp</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Aplikasi ini menyediakan ruang bagi para pengembang, baik di Indonesia maupun di seluruh dunia, untuk saling terhubung dan berbagi pengalaman.</string>
+    <string name="title_welcome_page">Selamat datang di aplikasi story!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="message_login_page">Lakukan login terlebih dahulu, ya</string>
+    <string name="title_login_page">Sudah siap untuk berbagi cerita?</string>
+    <string name="name">Nama</string>
+    <string name="logout">Keluar</string>
+    <string name="language">language</string>
+    <string name="description">Deskripsi</string>
+    <string name="title">Judul</string>
+    <string name="camera_x">kamera</string>
+    <string name="gallery">galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="atau">Atau</string>
+    <string name="masukan_sandi">Masukan sandi</string>
+    <string name="masukan_email">masukan email</string>
+    <string name="gambar">gambar</string>
+    <string name="enter_username">Masukkan Nama Pengguna</string>
+    <string name="example_gmail_com">Contoh@gmail.com</string>
+    <string name="enter_password">Masukkan Kata Sandi</string>
+    <string name="error_name">Nama tidak boleh kosong</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map">Peta</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satelit</string>
+    <string name="terrain_type">Terain</string>
+    <string name="hybrid_type">Hibrida</string>
+    <string name="retry">coba lagi</string>
+    <string name="start_point">Titik Awal</string>
+    <string name="lokasi">lokasi</string>
+</resources>
