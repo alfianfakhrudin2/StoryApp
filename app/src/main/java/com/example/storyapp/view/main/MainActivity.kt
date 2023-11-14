@@ -63,6 +63,10 @@ class MainActivity : AppCompatActivity() {
         }
         setupView()
         setupViewModel()
+
+        val actionbar = supportActionBar
+        actionbar!!.title = "LifeStory"
+        actionbar.setDisplayHomeAsUpEnabled(true)
     }
 
     private fun getSession() {

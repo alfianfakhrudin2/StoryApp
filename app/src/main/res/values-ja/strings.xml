@@ -4,7 +4,7 @@
     <string name="signup">リスト</string>
     <string name="login">入力</string>
     <string name="message_welcome_page">このアプリケーションは、インドネシアと世界中の開発者がつながり、エクスペリエンスを共有するためのスペースを提供します。</string>
-    <string name="title_welcome_page">ストーリーアプリへようこそ！</string>
+    <string name="title_welcome_page">LifeStoryへようこそ！</string>
     <string name="title_signup_page">以下にデータを入力してください</string>
     <string name="email">Eメール</string>
     <string name="password">パスワード</string>
@@ -17,7 +17,7 @@
     <string name="title">タイトル</string>
     <string name="camera_x">カメラ</string>
     <string name="gallery">ギャラリー</string>
-    <string name="upload">アップロード</string>
+    <string name="upload">投稿</string>
     <string name="atau">または</string>
     <string name="masukan_sandi">パスワードを入力する</string>
     <string name="masukan_email">メールアドレスを入力して</string>
@@ -35,4 +35,6 @@
     <string name="retry">再試行</string>
     <string name="start_point">出発点</string>
     <string name="lokasi">場所</string>
+    <string name="txtAccount">まだアカウントをお持ちでないですか？</string>
+    <string name="haveAccount">すでにアカウントをお持ちですか？</string>
 </resources>

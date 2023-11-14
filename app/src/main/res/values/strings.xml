@@ -3,7 +3,7 @@
     <string name="signup">SignUp</string>
     <string name="login">login</string>
     <string name="message_welcome_page">This App provides a space for developers, both in Indonesia and worldwide, to connect and share their experiences.</string>
-    <string name="title_welcome_page">Welcome to storyApp!</string>
+    <string name="title_welcome_page">Welcome to LifeStory!</string>
     <string name="title_signup_page">Complete your data below</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -16,7 +16,7 @@
     <string name="title">Title</string>
     <string name="camera_x">camera</string>
     <string name="gallery">gallery</string>
-    <string name="upload">upload</string>
+    <string name="upload">Post</string>
     <string name="atau">OR</string>
     <string name="masukan_sandi">Enter your Password</string>
     <string name="masukan_email">Enter your Email</string>
@@ -34,4 +34,6 @@
     <string name="retry">retry</string>
     <string name="start_point">Start Point</string>
     <string name="lokasi">Location</string>
+    <string name="txtAccount">Dont Have an Account Yet?</string>
+    <string name="haveAccount">Already have an account?</string>
 </resources>

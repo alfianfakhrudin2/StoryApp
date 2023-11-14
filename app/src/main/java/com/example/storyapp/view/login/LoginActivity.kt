@@ -31,6 +31,10 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.txtSignup.setOnClickListener {
+            startActivity(Intent(this, SignupActivity::class.java))
+        }
+
         setupView()
         playAnimation()
         login()
@@ -42,14 +46,17 @@ class LoginActivity : AppCompatActivity() {
             repeatCount = ObjectAnimator.INFINITE
             repeatMode = ObjectAnimator.REVERSE
         }.start()
+
         val title = ObjectAnimator.ofFloat(binding.titleTextViewLogin, View.ALPHA, 1f).apply {
             duration = 200
             startDelay = 100
         }
+
         val txtview2 = ObjectAnimator.ofFloat(binding.emailTextView, View.ALPHA, 1f).apply {
             duration = 200
             startDelay = 100
         }
+
         val formInput3 = ObjectAnimator.ofFloat(binding.emailEditTextLayout, View.ALPHA, 1f).apply {
             duration = 200
             startDelay = 100
@@ -75,10 +82,15 @@ class LoginActivity : AppCompatActivity() {
                 startDelay = 100
             }
 
-        val signup = ObjectAnimator.ofFloat(binding.loginButton, View.ALPHA, 1f).apply {
+        val loginBtn = ObjectAnimator.ofFloat(binding.loginButton, View.ALPHA, 1f).apply {
             duration = 200
             startDelay = 100
         }
+        val txtSignup = ObjectAnimator.ofFloat(binding.emailTextView, View.ALPHA, 1f).apply {
+            duration = 200
+            startDelay = 100
+        }
+
 
         AnimatorSet().apply {
             playSequentially(
@@ -89,7 +101,8 @@ class LoginActivity : AppCompatActivity() {
                 txtview3,
                 formInput5,
                 formInput6,
-                signup
+                loginBtn,
+                txtSignup
             )
             start()
         }

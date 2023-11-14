@@ -8,21 +8,22 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/gambar"
-        app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
+        app:layout_constraintBottom_toTopOf="@+id/titleTextViewWelcome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/welcome" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/titleTextViewWelcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="32dp"
         android:alpha="0"
         android:fontFamily="@font/font_1"
@@ -88,7 +89,7 @@
         android:layout_height="64dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintGuide_percent="0.5006784"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline

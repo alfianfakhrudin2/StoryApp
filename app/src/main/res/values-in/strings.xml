@@ -4,7 +4,7 @@
     <string name="signup">Daftar</string>
     <string name="login">Masuk</string>
     <string name="message_welcome_page">Aplikasi ini menyediakan ruang bagi para pengembang, baik di Indonesia maupun di seluruh dunia, untuk saling terhubung dan berbagi pengalaman.</string>
-    <string name="title_welcome_page">Selamat datang di aplikasi story!</string>
+    <string name="title_welcome_page">Selamat datang di LifeStory!</string>
     <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
     <string name="email">Email</string>
     <string name="password">Kata Sandi</string>
@@ -17,7 +17,7 @@
     <string name="title">Judul</string>
     <string name="camera_x">kamera</string>
     <string name="gallery">galeri</string>
-    <string name="upload">Unggah</string>
+    <string name="upload">Posting</string>
     <string name="atau">Atau</string>
     <string name="masukan_sandi">Masukan sandi</string>
     <string name="masukan_email">masukan email</string>
@@ -35,4 +35,6 @@
     <string name="retry">coba lagi</string>
     <string name="start_point">Titik Awal</string>
     <string name="lokasi">lokasi</string>
+    <string name="txtAccount">Belum Memiliki Akun?</string>
+    <string name="haveAccount">sudah memiliki account?</string>
 </resources>

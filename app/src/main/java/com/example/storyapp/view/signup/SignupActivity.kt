@@ -2,6 +2,7 @@ package com.example.storyapp.view.signup
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +15,7 @@ import androidx.appcompat.app.AlertDialog
 import com.example.storyapp.data.remote.response.Result
 import com.example.storyapp.databinding.ActivitySignupBinding
 import com.example.storyapp.view.ViewModelFactory
+import com.example.storyapp.view.login.LoginActivity
 
 class SignupActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
@@ -25,6 +27,10 @@ class SignupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.txtSignup.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
 
         setupView()
         playAnimation()
@@ -88,6 +94,11 @@ class SignupActivity : AppCompatActivity() {
             startDelay = 100
         }
 
+        val login = ObjectAnimator.ofFloat(binding.loginSignup, View.ALPHA, 1f).apply {
+            duration = 200
+            startDelay = 100
+        }
+
         AnimatorSet().apply {
             playSequentially(
                 title,
@@ -100,7 +111,8 @@ class SignupActivity : AppCompatActivity() {
                 txtview3,
                 formInput5,
                 formInput6,
-                signup
+                signup,
+                login
             )
             start()
         }

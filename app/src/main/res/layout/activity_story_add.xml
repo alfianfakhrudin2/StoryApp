@@ -37,19 +37,19 @@
                     app:srcCompat="@drawable/ic_place_holder"
                     tools:ignore="ImageContrastCheck" />
 
-                <Button
+                <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:id="@+id/cameraXButton"
-                    android:layout_width="120dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="15dp"
                     android:backgroundTint="@color/gold"
                     android:fontFamily="@font/font_retro"
-                    android:text="@string/camera_x"
+                    app:icon="@drawable/baseline_camera_alt_24"
                     android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/galleryButton" />
 
-                <Button
+                <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:id="@+id/galleryButton"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                     android:elevation="2dp"
                     android:fontFamily="@font/font_retro"
                     android:scaleType="fitCenter"
-                    android:text="@string/gallery"
+                    app:icon="@drawable/ic_place_holder"
                     android:textColor="@color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/previewImageView" />
@@ -99,18 +99,17 @@
             app:layout_constraintTop_toBottomOf="@+id/cardView"
             tools:ignore="VisualLintTextFieldSize" />
 
-        <Button
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/uploadButton"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
             android:layout_marginBottom="5dp"
             android:backgroundTint="@color/gold"
             android:fontFamily="@font/font_3"
             android:text="@string/upload"
             android:textColor="@color/black"
             android:textSize="20sp"
+            app:icon="@drawable/ic_send"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

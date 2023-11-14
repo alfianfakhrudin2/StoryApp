@@ -206,4 +206,36 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
+    <LinearLayout
+        android:id="@+id/login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupButton"
+        tools:alpha="100">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font_3"
+            android:text="@string/haveAccount" />
+
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font_3"
+            android:textSize="15sp"
+            android:paddingStart="5dp"
+            android:text="@string/login"
+            android:textColor="@color/goldtua" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
